@@ -45,3 +45,23 @@ footer{color:#9aa0b7;text-align:center;padding:36px 16px 48px;font-size:14px}
 .logo-row{display:flex;align-items:center;gap:12px;justify-content:center}
 .hourglass{width:48px;height:48px;filter:drop-shadow(0 6px 22px rgba(106,17,203,.35));animation:flip 6s ease-in-out infinite;transform-origin:50% 50%}
 @keyframes flip{0%,45%{transform:rotate(0deg)}50%{transform:rotate(180deg)}95%,100%{transform:rotate(180deg)}}
+.logo-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  justify-content: center;
+}
+
+.hourglass {
+  width: 48px;
+  height: 48px;
+  filter: drop-shadow(0 6px 22px rgba(106, 17, 203, .35));
+  animation: flip 6s ease-in-out infinite;
+  transform-origin: 50% 50%;
+}
+
+@keyframes flip {
+  0%, 45% { transform: rotate(0deg); }
+  50% { transform: rotate(180deg); }
+  95%, 100% { transform: rotate(180deg); }
+}
