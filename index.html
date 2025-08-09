@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Cloudetics – Rebuilding the Cloud Intelligently with AI" />
+  <title>Cloudetics</title>
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="logo">
+      <h1 class="animated-logo">Cloudetics</h1>
+    </div>
+
+    <div class="heading-rotation">
+      <div class="fade-heading active">Rebuilding the Cloud Intelligently</div>
+      <div class="fade-heading">Cost-Efficient Infrastructure with AI</div>
+      <div class="fade-heading">Meet Agro 2.0 – Our Cloud Refactoring Brain</div>
+    </div>
+
+    <p class="subtext">We're working on something revolutionary.</p>
+    <button class="cta-button">Notify Me</button>
+  </section>
+
+  <!-- NOTIFY SECTION -->
+  <section class="notify-section">
+    <h2>Be the First to Know</h2>
+    <p>Sign up to receive early updates and a special invite when we launch.</p>
+    <form class="notify-form" action="#" method="POST" onsubmit="return false;">
+      <input type="email" name="EMAIL" placeholder="Your email address" required />
+      <input type="text" name="FNAME" placeholder="First name" />
+      <button type="submit">Subscribe</button>
+    </form>
+  </section>
+
+  <!-- CHATBOT -->
+  <section class="notify-section">
+    <h2>Talk to Agro 2.0</h2>
+    <p>Ask me anything about cloud, AI, or our launch!</p>
+    <div style="display:flex; gap:10px; margin-top:15px;">
+      <input id="chatInput" type="text" placeholder="Ask Agro..." style="flex:1; padding:10px; border-radius:8px; border:1px solid rgba(255,255,255,0.1); background:rgba(255,255,255,0.06); color:white;" />
+      <button id="chatBtn" style="padding:10px 16px; border-radius:8px; background:var(--gradient); border:none; color:white; font-weight:700; cursor:pointer;">Ask</button>
+    </div>
+    <div id="chatResponse" style="margin-top:15px; text-align:left; color:var(--muted); font-size:15px;"></div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    &copy; <span id="year"></span> Cloudetics. All rights reserved.
+  </footer>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>
